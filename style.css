@@ -1,0 +1,96 @@
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #788BFF;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+.rectangle {
+    align-self: center;
+    background-color: white;
+    width: 45%;
+    height: 50%;
+    border-radius: 10px;
+    margin: 0%;
+    padding: 0%;
+    box-shadow: 3px 4px 6px 1px rgba(0,0,0,0.35);
+}
+
+h1 {
+    font-size: 200%;
+    text-align: center;
+}
+
+.fieldAndButton {
+  display: flex;
+  justify-content: center;
+}
+
+#input-button, #input-field {
+    font-family: "Quicksand", sans-serif;
+}
+
+#input-field {
+    width: 70%;
+    align-self: center;
+    padding: 2%;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 203, 203);
+}
+
+#input-button {
+    cursor: pointer;
+    width: 20%;
+    align-self: center;
+    padding: 2%;
+    margin-left: 2%;
+    background-color: #788BFF ;
+    color: white;
+    font-weight: 400;
+    border-radius: 10px;
+    border: none;
+    
+    
+}
+
+#input-button:hover {
+    background-color: #abb3e6;
+}
+
+.done {
+    color: rgb(3, 201, 3);
+}
+
+.deletebtn, .donebtn {
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 1%;
+}
+
+.deletebtn {
+    background-color: red;
+}
+
+.donebtn {
+    background-color: rgb(3, 201, 3);
+}
+
+@media screen and (max-width: 1000px ){
+    .rectangle {
+        width: 90%;
+        height: 70vh;
+    }
+    #input-field {
+        width: 70%;
+    }
+}
