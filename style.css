@@ -1,3 +1,6 @@
+/**************************/
+/*     General Styles     */
+/**************************/
 body {
     height: 100vh;
     width: 100%;
@@ -6,6 +9,9 @@ body {
     margin: 0%;
 }
 
+/******************
+/*     Flexbox   */
+/*****************/
 .main-container {
     display: flex;
     flex-direction: column;
@@ -14,6 +20,7 @@ body {
     height: 100%;
 }
 
+/* White rectangle */
 .rectangle {
     align-self: center;
     background-color: white;
@@ -25,6 +32,7 @@ body {
     box-shadow: 3px 4px 6px 1px rgba(0,0,0,0.35);
 }
 
+/* Black headline */
 h1 {
     font-size: 200%;
     text-align: center;
@@ -39,6 +47,7 @@ h1 {
     font-family: "Quicksand", sans-serif;
 }
 
+/* Text-field */
 #input-field {
     width: 70%;
     align-self: center;
@@ -47,6 +56,7 @@ h1 {
     border: 1px solid rgb(204, 203, 203);
 }
 
+/* "Add"-button */
 #input-button {
     cursor: pointer;
     width: 20%;
@@ -66,6 +76,7 @@ h1 {
     background-color: #abb3e6;
 }
 
+/* Green colour for done task */
 .done {
     color: rgb(3, 201, 3);
 }
@@ -77,14 +88,18 @@ h1 {
     margin: 1%;
 }
 
+/* "Trashcan"-button */
 .deletebtn {
     background-color: red;
 }
 
+/* "Checkmark"-button */
 .donebtn {
     background-color: rgb(3, 201, 3);
 }
 
+
+/* Changes rectangle and text-field size depending on screen width */
 @media screen and (max-width: 1000px ){
     .rectangle {
         width: 90%;
