@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](screenshot.jpg)
+Screenshot of my solution: ![](screenshot.jpg)
 
 ### Links
 
@@ -111,4 +111,4 @@ In future projects I also want to make them store inputs and convert them into P
 - [Youtube: dcode] (https://www.youtube.com/watch?v=k8yJCeuP6I8&t=643s) - This helped me saving inputs in the local storage and   
                                                                           to display them when the page gets reloded
                                                                           
-- [Youtube: vaadinofficial](https://www.youtube.com/watch?v=E8BeSSdIUW4&list=WL&index=142) - This helped me to convert my web page into a PWA
+- [Youtube: vaadinofficial] (https://www.youtube.com/watch?v=E8BeSSdIUW4&list=WL&index=142) - This helped me to convert my web page into a PWA
