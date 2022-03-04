@@ -1,3 +1,5 @@
+registerSW();
+
 var createListElement = (txt) => {
     var li = document.createElement("li");
     li.appendChild(document.createTextNode(input.value));
@@ -65,7 +67,19 @@ function addListAfterKeypress(event) {
     alert("Please write something to do!")
 }
 
-button.addEventListener("click", addListAfterClick)
+button.addEventListener("click", addListAfterClick);
 
 input.addEventListener("keypress", addListAfterKeypress);
+
+async function registerSW() {
+    if ("serviceWorker" in navigator) {
+        try {
+            await navigator.serviceWorker.register("./sw.js");
+        } catch (e) {
+            console.log("SW registration failed");
+        }
+    }
+}
+
+
 
