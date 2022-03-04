@@ -38,7 +38,9 @@ Users should be able to:
 2. Started bulding the page by adding a hedaline, inputfield and an "Add"-button.
 
 3. Added following functions: 
+
                               - adding a list item when something is written down in the inputfiel and the "Add"-button is clicked
+                              
                               - adding a "Trashcan"-button and "checkmarker"-button when a new list item is created
                               
 4. Gave the background a colour and created a white rectangle around the all items. Also everything got positioned to the center of the page
