@@ -1,4 +1,4 @@
-registerSW();
+// registerSW();
 
 // get elements and ids
 var ul = document.querySelector("ul");
